@@ -10,3 +10,5 @@ call win_build.bat %1 %2 %3 %4
 popd
 
 :end
+
+ninnin
