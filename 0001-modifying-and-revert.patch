@@ -1,7 +1,7 @@
 From 4e155f57bc2066e92e8250b872a0ecd750c72cfb Mon Sep 17 00:00:00 2001
 From: hdduy110697 <hdduy110697@gmail.com>
 Date: Tue, 19 Nov 2019 13:49:36 +0700
-Subject: [PATCH 6/6]  modifying and revert
+Subject: [PATCH 1/2]  modifying and revert
 
 ---
  sources/Utils.cpp | 4 ++++
