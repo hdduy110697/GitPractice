@@ -1,0 +1,41 @@
+From 3ad6e6ef4181e5addf3bf0e166661122bb57131e Mon Sep 17 00:00:00 2001
+From: hdduy110697 <hdduy110697@gmail.com>
+Date: Mon, 18 Nov 2019 20:05:32 +0700
+Subject: [PATCH 2/6] aa
+
+---
+ buildWin.bat       | 4 +++-
+ installAndroid.bat | 4 +++-
+ 2 files changed, 6 insertions(+), 2 deletions(-)
+
+diff --git a/buildWin.bat b/buildWin.bat
+index 3083f60..fc98159 100644
+--- a/buildWin.bat
++++ b/buildWin.bat
+@@ -9,4 +9,6 @@ call win_build.bat %1 %2 %3 %4
+ 
+ popd
+ 
+-:end
+\ No newline at end of file
++:end
++
++ninnin
+\ No newline at end of file
+diff --git a/installAndroid.bat b/installAndroid.bat
+index 27608d4..d9f1e1a 100644
+--- a/installAndroid.bat
++++ b/installAndroid.bat
+@@ -21,4 +21,6 @@ popd
+ popd
+ 
+ echo.
+-pause
+\ No newline at end of file
++pause
++
++nin nin
+\ No newline at end of file
+-- 
+2.22.0.windows.1
+

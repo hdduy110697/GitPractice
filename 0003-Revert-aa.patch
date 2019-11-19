@@ -1,0 +1,42 @@
+From b84562d2e144422a64744f85efcbb28c6b6656b1 Mon Sep 17 00:00:00 2001
+From: hdduy110697 <hdduy110697@gmail.com>
+Date: Mon, 18 Nov 2019 20:06:22 +0700
+Subject: [PATCH 3/6] Revert "aa"
+
+This reverts commit 3ad6e6ef4181e5addf3bf0e166661122bb57131e.
+---
+ buildWin.bat       | 4 +---
+ installAndroid.bat | 4 +---
+ 2 files changed, 2 insertions(+), 6 deletions(-)
+
+diff --git a/buildWin.bat b/buildWin.bat
+index fc98159..3083f60 100644
+--- a/buildWin.bat
++++ b/buildWin.bat
+@@ -9,6 +9,4 @@ call win_build.bat %1 %2 %3 %4
+ 
+ popd
+ 
+-:end
+-
+-ninnin
+\ No newline at end of file
++:end
+\ No newline at end of file
+diff --git a/installAndroid.bat b/installAndroid.bat
+index d9f1e1a..27608d4 100644
+--- a/installAndroid.bat
++++ b/installAndroid.bat
+@@ -21,6 +21,4 @@ popd
+ popd
+ 
+ echo.
+-pause
+-
+-nin nin
+\ No newline at end of file
++pause
+\ No newline at end of file
+-- 
+2.22.0.windows.1
+

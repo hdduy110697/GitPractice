@@ -1,0 +1,26 @@
+From 4e155f57bc2066e92e8250b872a0ecd750c72cfb Mon Sep 17 00:00:00 2001
+From: hdduy110697 <hdduy110697@gmail.com>
+Date: Tue, 19 Nov 2019 13:49:36 +0700
+Subject: [PATCH 6/6]  modifying and revert
+
+---
+ sources/Utils.cpp | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/sources/Utils.cpp b/sources/Utils.cpp
+index 13a00b9..9cbab4c 100644
+--- a/sources/Utils.cpp
++++ b/sources/Utils.cpp
+@@ -39,4 +39,8 @@ int Utils::Random(int min, int max)
+ {
+ 	int random = rand() % (max - min + 1) + min;
+ 	return random;
++}
++int Add(int a, int b)
++{
++return a + b;
+ }
+\ No newline at end of file
+-- 
+2.22.0.windows.1
+
